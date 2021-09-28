@@ -9,10 +9,12 @@ from std_msgs.msg import String
 def talker():
     pub = rospy.Publisher('chatter', String, queue_size=10)
     rospy.init_node('talker', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
+    rate = rospy.Rate(5)
+    i = 0
     while not rospy.is_shutdown():
-        hello_str = "hello world %s" % rospy.get_time()
-        rospy.loginfo(hello_str)
+        hello_str = f"hello world {i}"
+        i += 1
+        rospy.loginfo(f"I sent: {hello_str}")
         pub.publish(hello_str)
         rate.sleep()
 
