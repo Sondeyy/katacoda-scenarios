@@ -1,8 +1,8 @@
-Create the main python script and open it in the editor. \ 
-`touch publisher/src/main.py`{{execute}} \
-`src/publisher/src/main.py`{{open}} \
-\
-Copy the following content to main.py: \
+Create the main python script and open it in the editor. \
+`touch publisher/src/main.py`{{execute}} 
+`src/publisher/src/main.py`{{open}} 
+
+Copy the following content to main.py: 
 <pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
 import rospy
@@ -26,6 +26,6 @@ if __name__ == '__main__':
     except rospy.ROSInterruptException:
         pass
 </pre>
-\ 
-Make the script executable. \
+
+Make the script executable.
 `chmod 777 publisher/src/main.py`{{execute}}

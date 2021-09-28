@@ -1,8 +1,8 @@
-Create the main python script and open it in the editor. \ 
-`touch subscriber/src/main.py`{{execute}} \
-`src/subscriber/src/main.py`{{open}} \
-\
-Copy the following content to main.py: \
+Create the main python script and open it in the editor. \
+`touch subscriber/src/main.py`{{execute}} 
+`src/subscriber/src/main.py`{{open}} 
+
+Copy the following content to main.py: 
 <pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
 import rospy
@@ -22,6 +22,6 @@ def listener():
 if __name__ == '__main__':
     listener()
 </pre>
-\ 
-Make the script executable. \
+
+Make the script executable.
 `chmod 777 subscriber/src/main.py`{{execute}}
