@@ -1,0 +1,1 @@
+This katacoda covers the installation of ROS noetic on Ubuntu 20.04 and the creation of a simple subscriber and publisher in python.

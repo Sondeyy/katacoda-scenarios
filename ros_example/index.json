@@ -6,23 +6,23 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Installation",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Package creation",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Publisher",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Subscriber",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Run Packages",
         "text": "step5.md"
       }
     ],
