@@ -1,5 +1,5 @@
 `touch publisher/src/main.py`{{execute}}
-`publisher/src/main.py`{{open}}
+`src/publisher/src/main.py`{{open}}
 
 <pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
@@ -22,3 +22,5 @@ if __name__ == '__main__':
     except rospy.ROSInterruptException:
         pass
 </pre>
+
+`chmod 777 publisher/src/main.py`{{execute}}

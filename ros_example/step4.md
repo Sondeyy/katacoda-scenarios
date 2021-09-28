@@ -1,5 +1,5 @@
 `touch subscriber/src/main.py`{{execute}}
-`subscriber/src/main.py`{{open}}
+`src/subscriber/src/main.py`{{open}}
 
 <pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
@@ -26,3 +26,5 @@ def listener():
 if __name__ == '__main__':
     listener()
 </pre>
+
+`chmod 777 subscriber/src/main.py`{{execute}}
