@@ -1,7 +1,7 @@
 `touch publisher/src/main.py`{{execute}}
-`touch publisher/src/main.py`{{open}}
+`publisher/src/main.py`{{open}}
 
-```python
+<pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
 import rospy
 from std_msgs.msg import String
@@ -21,5 +21,4 @@ if __name__ == '__main__':
         talker()
     except rospy.ROSInterruptException:
         pass
-```
-{{copy}}
+</pre>

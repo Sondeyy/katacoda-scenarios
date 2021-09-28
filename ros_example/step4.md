@@ -1,7 +1,7 @@
 `touch subscriber/src/main.py`{{execute}}
-`touch subscriber/src/main.py`{{open}}
+`subscriber/src/main.py`{{open}}
 
-```python
+<pre class="file" data-target="clipboard">
 #!/usr/bin/env python3
 import rospy
 from std_msgs.msg import String
@@ -25,5 +25,4 @@ def listener():
 
 if __name__ == '__main__':
     listener()
-```
-{{copy}}
+</pre>
