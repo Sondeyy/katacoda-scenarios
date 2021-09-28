@@ -10,10 +10,10 @@ Update Package index.
 Install ROS-Base. Enter 'y', when asked for it. 
 `sudo apt install ros-noetic-ros-base`{{execute}}
 
-Source ROS.
+Source ROS to make commands known to the active terminal.
 `source /opt/ros/noetic/setup.bash`{{execute}}
 
-Install Dependencies for building packages. Enter 'y', when asked for it.
+Install Dependencies for building packages with python. Enter 'y', when asked for it.
 `sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`{{execute}}
 
 Initialize and update rosdep.
