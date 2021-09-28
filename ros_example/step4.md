@@ -22,6 +22,7 @@ def listener():
 if __name__ == '__main__':
     listener()
 </pre>
+
 This script creates a Subscriber object, which subscribes to the *hello* topic with *String* message type. Everytime a message is received, it will call *callback* and pass data to it. 
 
 Make the script executable.

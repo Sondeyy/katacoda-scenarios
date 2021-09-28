@@ -26,6 +26,7 @@ if __name__ == '__main__':
     except rospy.ROSInterruptException:
         pass
 </pre>
+
 This script creates an Publisher object, which will pubslish to the topic called *hello*. The message type will be *String* from the standard messages.
 It will then publish messages with 5Hz.
 
