@@ -7,14 +7,14 @@ Add keys for apt.
 Update Package index. 
 `sudo apt update`{{execute}}
 
-Install ROS-Base. Enter 'y', when asked for it. 
-`sudo apt install ros-noetic-ros-base`{{execute}}
+Install ROS-Base.
+`sudo apt install -y ros-noetic-ros-base`{{execute}}
 
 Source ROS to make commands known to the active terminal.
 `source /opt/ros/noetic/setup.bash`{{execute}}
 
-Install Dependencies for building packages with python. Enter 'y', when asked for it.
-`sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`{{execute}}
+Install Dependencies for building packages with python.
+`sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`{{execute}}
 
 Initialize rosdep.
 `sudo rosdep init`{{execute}}
