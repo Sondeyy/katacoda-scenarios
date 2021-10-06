@@ -16,6 +16,10 @@ Source ROS to make commands known to the active terminal.
 Install Dependencies for building packages with python. Enter 'y', when asked for it.
 `sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`{{execute}}
 
-Initialize and update rosdep.
+Initialize rosdep.
 `sudo rosdep init`{{execute}}
+
+Update rosdep. 
 `rosdep update`{{execute}}
+
+After installing ROS successfully, we will start by creating a simple publisher and subscriber!
