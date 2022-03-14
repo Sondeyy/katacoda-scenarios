@@ -6,7 +6,8 @@ Run the Jupyter Notebook container image:
 
 `docker run -p 8888:8888 -d --name jupyter jupyter/pyspark-notebook`{{execute}}
 
-`docker cp main.ipynb jupyter:/home/sondey/main.ipynb`
+`docker cp main.ipynb jupyter:/home/jovyan/main.ipynb`{{execute}}
+`docker cp crude-oil-price.csv jupyter:/home/jovyan/crude-oil-price.csv`{{execute}}
 
 When the container is running, execute this statement:
 `docker logs jupyter`{{execute}}
