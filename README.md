@@ -5,4 +5,5 @@
 Visit https://www.katacoda.com/sondey to view the profile and interactive scenarios.
 
 ## Scenarios
-* ros_example: Introduction to ROS, the Robot Operating System, and its message system
+* ros_example: Introduction to ROS, the Robot Operating System, and its message system.
+* pyark: Introduction to PySpark. 
