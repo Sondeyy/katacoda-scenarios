@@ -1,5 +1,4 @@
 You will now run a Docker container for Jupyter Notebook.
-Note: this may take up to 3 minutes, because of the size of the container image.
 
 ## Run the Jupyter Notebook 
 
@@ -9,9 +8,7 @@ Pull and run the Jupyter Notebook container image:
 This image will already have jupyter, pyspark and some other useful libraries like matplotlib or pandas installed.
 Without a container you would just run `pip install pyspark` to get started.
 
-Since the creation of the container may take some time on the limited resources of the katacoda machine, you might as well get yourself a coffee or tea in the meantime, sorry for that. 
-
-... wait until the process is done ...
+Since the creation of the container may take some time on the limited resources of the katacoda machine, you might as well get yourself a coffee or tea in the meantime, sorry for that.
 
 After the creation of the container we will copy two files to its filesystem. The first is just an empty notebook file to get you started. 
 
@@ -28,7 +25,6 @@ Now we need to open our jupyter notebook. You will need a token to open it. Foll
 
 This will show something like:
 ```
-    Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://localhost:8888/?token=f89b02dd78479d52470b3c3a797408b20cc5a11e067e94b8
 ```
@@ -37,7 +33,5 @@ The token is the value behind `/?token=`. You need that for logging in.
 
 Next, you can open the Jupyter Notebook at 
  https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/
-
-Note: you need the value of the Jupyter Token to login to the environment. 
 
 Open the `main.ipynb` notebook to start. 
