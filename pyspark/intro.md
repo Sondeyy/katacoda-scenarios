@@ -1,6 +1,6 @@
 Welcome!
 
-This Katacoda will cover the basics of PySpark. But first things first, what is PySpark?
+This Katacoda covers the basics of PySpark. But first things first, what is PySpark?
 
 > PySpark is an interface for Apache Spark in Python. It not only allows you to write Spark applications using Python APIs, but also provides the PySpark shell for interactively analyzing your data in a distributed environment. [1](https://spark.apache.org/docs/latest/api/python/)
 
@@ -11,6 +11,6 @@ Apache Spark is an engine, that provides various features used for data-engineer
 It is open source and widely used in the industry.
 > Apache Spark has become one of the most popular big data distributed processing framework with 365,000 meetup members in 2017. [2](https://aws.amazon.com/big-data/what-is-spark/)
 
-One big advantage is that it provides these features not only on single-node machines but also on big clusters for performance efficient, parallel computing with large datasets. 
-
+One big feature is that it provides these features not only on single-node machines but also on big clusters for performance efficient, parallel computing with large datasets. It can be used either standalone or as an abstraction layer on Hadoop YARN or Kubernetes Clusters. 
+![Spark architecture](images/architecture.png)
 This katacoda will cover a few different topics in the next few steps. To create and explain the code iteratively we will use a jupyter notebook. Let's get started by installing that!
