@@ -1,8 +1,9 @@
 You will now run a Docker container for Jupyter Notebook.
 
 ## Run the Jupyter Notebook 
-Some commands will be invoked in the terminal to your right. They pull and run a container containing all necessary packages ot get started with pyspark in a jupyter notebook. 
+Some commands will be invoked in the terminal to your right. They pull and run a container containing all necessary packages to get started with pyspark in a jupyter notebook. 
 Moreover, a blank example notebook and some example data used later on will be copied to it. This may take some time, but please hang on. 
+Normally you would just use `pip install pyspark` to install pyspark. But since we want to show its capabilities in a notebook, we do it this way.
 
 Finally, it will print the logs of the container.
 
