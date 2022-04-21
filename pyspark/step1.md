@@ -5,7 +5,8 @@ Some commands will be invoked in the terminal to your right. They pull and run a
 Moreover, a blank example notebook and some example data used later on will be copied to it. This may take some time, but please hang on. 
 Normally you would just use `pip install pyspark` to install pyspark. But since we want to show its capabilities in a notebook, we do it this way.
 
-Finally, it will print the logs of the container.
+Finally, we need to print the logs of the container.
+`docker logs jupyter`{{execute}}
 
 This will show something like:
 ```
