@@ -1,3 +1,5 @@
+Please execute the first cell by clicking in it and hitting SHIFT+ENTER. Proceed with the following code snippets by copying, inserting and running them in a similar manner. 
+
 The first thing to do when working with spark is to create a SparkSession.
 A SparkSession encapsulates multiple SparkContexts, which need to be created when using spark in different areas.
 For example in previous versions you had to create a SQLContext, a HiveContext and so on. This was simplified with Spark Sessions in Apache 2.0 [3](https://medium.com/@achilleus/spark-session-10d0d66d1d24). 
