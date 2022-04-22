@@ -18,6 +18,7 @@ It is open source and widely used in the industry.
 One big feature is that it provides these features not only on single-node machines but also on big clusters for performance efficient, parallel computing with large datasets. It can be used either standalone or as an abstraction layer on Hadoop YARN or Kubernetes Clusters.
 
 ![Spark architecture](assets/architecture.png)
+04 Tools, #121
 
 --- 
 
