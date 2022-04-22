@@ -1,6 +1,6 @@
 Welcome!
 
-This Katacoda covers the basics of PySpark. But first things first, what is PySpark?
+This Katacoda covers the basics of PySpark. You won't need any previous knowledge about Spark, but some with Python and Common Data Formats. But first things first, what is PySpark?
 
 > PySpark is an interface for Apache Spark in Python. It not only allows you to write Spark applications using Python APIs, but also provides the PySpark shell for interactively analyzing your data in a distributed environment. [1](https://spark.apache.org/docs/latest/api/python/)
 
